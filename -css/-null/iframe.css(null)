@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+#estrutura {
+  position: relative;
+  display: flex;
+  width: 100%;
+  /* top: 20vh; */
+  padding: 0px;
+  margin: 10px;
+  border: none;
+  border: 1px solid black;
+  background-color: aquamarine;
+  margin-bottom: 20px;
+}

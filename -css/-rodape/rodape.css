@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.rodape {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 30vh;
+  background-color: rgb(72, 180, 207);
+}
+
+.rodape div:nth-child(4){
+  flex: 1 0 auto;
+}
+
+.rodape .titulo {
+  display: block;
+  position: relative;
+  width: fit-content;
+  text-align: center;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 15px;
+  color: rgb(72, 180, 207);
+  transition: 0.5s;
+}
+
+.contato-eletronico,
+.telefones,
+.instituicao,
+.extra {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 20px;
+  margin-top: 25px;
+  padding: 5px;
+}
+
+.rodape .extra {
+  /* Div para separar as outras */
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.sub-titulo {
+  display: block;
+  font-size: 20px;
+  color: rgb(13, 13, 131);
+}
+
+.email,
+.numero,
+.nome,
+.endereco,
+.link {
+  display: flex;
+  font-size: 15px;
+  color: rgb(13, 13, 131);
+  text-align: center;
+}
+
+.email:hover, .link:hover {
+  color: #6b52f7;
+  cursor: pointer;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(30, 36, 126);
+}
+
+.copy img {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy img#b {
+  width: 35px;
+}
+
+.rodape a{
+  text-decoration: none;
+}
+
+ 

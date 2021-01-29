@@ -1,0 +1,53 @@
+[id*='kit' i]::after {
+  font-size: 105px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#kit1::after {
+  content: 'Striker';
+}
+
+#kit2::after {
+  content: 'KaBuM';
+}
+
+#kit3::after {
+  content: 'Rocketz ';
+}
+
+#kit4::after {
+  content: 'Pichau';
+}
+
+#kit5::after {
+  content: 'AMD';
+}
+#kit6::after {
+  content: 'AMD';
+}
+
+#kit7::after {
+  content: 'AMD';
+}
+
+#kit8::after {
+  content: 'AMD';
+}
+
+#kit9::after {
+  content: 'Intel';
+}
+
+#kit10::after {
+  content: 'Intel';
+}
+
+#kit11::after {
+  content: 'Intel';
+}
+
+#kit12::after {
+  content: 'Intel';
+}

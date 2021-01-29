@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Importando arquivos CSS -->
+    <link rel="stylesheet" href="/-css/-menu/menu.css">
+    <link rel="stylesheet" href="/-css/-menu/-search/barra-de-pesquisa.css">
+    <link rel="stylesheet" href="/-css/-login/icon-login.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/-imagens/Logo/logo-01.png" type="image/x-png">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/db5edba00e.js" crossorigin="anonymous"></script>
+
+    <!-- Título da Página -->
+    <title> Menu </title>
+  </head>
+  <body>
+    <nav>
+      <a href="/index.html" class="logo-link">
+        <div class="logo-geral">
+          <span class="class-icon" id="bits">
+          </span>
+          <div class="logo"> PowerBits </div>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <!-- Tópico HARDWARE -->
+        <li>
+          <a href="/-html/hardware.html">
+            <div class="action">
+              <span class="class-icon" id="id-hard"></span>
+              <div class="topico"> Hardware </div>
+            </div>
+          </a>
+        </li>
+        <!-- Tópico Periféricos -->
+        <li>
+          <a href="/-html/perifericos.html">
+            <div class="action">
+              <span class="class-icon" id="id-perif"></span>
+              <div class="topico"> Periféricos </div>
+            </div>
+          </a>
+        </li>
+        <!-- Tópico Computadores -->
+        <li>
+          <a href="/-html/kits.html">
+            <div class="action">
+              <span class="class-icon" id="id-comp"></span>
+              <div class="topico"> Computadores </div>
+            </div>
+          </a>
+        </li>
+        <!-- Tópico GPU -->
+        <li>
+          <a href="/-html/placa de video.html">
+            <div class="action">
+              <span class="class-icon" id="id-gpu"></span>
+              <div class="topico"> GPU </div>
+            </div>
+          </a>
+        </li>
+        <!-- Tópico Monitores -->
+        <li>
+          <a href="/-html/monitores.html">
+            <div class="action">
+              <span class="class-icon" id="id-moni"></span>
+              <div class="topico"> Monitores </div>
+            </div>
+          </a>
+        </li>
+        <!-- Tópico Categorias -->
+        <li>
+          <a href="/-html/categorias.html">
+            <div class="action">
+              <span class="class-icon" id="id-categ"></span>
+              <div class="topico"> Categorias </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <!-- Menu Burger -->
+      <div class="menu-burger">
+        <div class="linha1"></div>
+        <div class="linha2"></div>
+        <div class="linha3"></div>
+      </div>
+    </nav>
+
+    <!-- Sub-menu -->
+    <div class="geral">
+      <a class="login" href="/-html/-login/pag-login.html">
+        <div class="icone">
+          <i class="fas fa-user"></i>
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="nome"> <span data-text="Login"> Login </span> </div>
+      </a>
+
+      <!-- Barra de Pesquisa -->
+      <div class="pacote">
+        <div class="inserir-pesq">
+          <a href="" target="_blank" hidden></a>
+          <input type="text">
+          <div class="auto-pesq">
+            <!-- A lista é inserida a partir do JavaScript -->
+          </div>
+          <div class="lupa"><i class="fas fa-search"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Importando arquivos JavaScript -->
+    <script src="/-javascript/lista-pesquisa.js" crossorigin="anonymous"></script>
+    <script src="/-javascript/barra-de-pesquisa.js" crossorigin="anonymous"></script>
+  </body>
+</html>

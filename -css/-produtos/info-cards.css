@@ -1,0 +1,504 @@
+/* [id*="card" i] = Seletor CSS que aplica estilos para todos os 'ids' que contenham a palavra 'card', seja apenas "card" ou "card..." */
+[id*='card' i]::after {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#card1::after {
+  content: 'Ripjaw';
+}
+
+#card2::after {
+  content: 'HyperX';
+}
+
+.cartao .infoCartao .cor.cor2 span:nth-child(4) {
+  background-color: red;
+}
+
+#card3::after {
+  content: 'Corsair';
+  font-size: 105px;
+}
+
+.cartao .infoCartao .cor.cor3 span:nth-child(4) {
+  background-color: red;
+}
+
+#card4::after {
+  content: 'HyperX';
+}
+
+.cartao .infoCartao .cor.cor4 span:nth-child(4) {
+  background-color: rgb(0, 174, 255);
+}
+
+#card5::after {
+  content: 'Corsair';
+  font-size: 105px;
+}
+
+#card6::after {
+  content: 'GSkill';
+}
+
+.cartao .infoCartao .cor.cor6 span:nth-child(4) {
+  background-color: rgb(255, 136, 0);
+}
+
+#card7::after {
+  content: 'HyperX';
+}
+
+#card8::after {
+  content: 'TGroup';
+  font-size: 90px;
+}
+
+.cartao .infoCartao .cor.cor8 span:nth-child(4) {
+  background-color: rgb(199, 30, 0);
+}
+
+#card9::after {
+  content: 'ASrock';
+  font-size: 90px;
+}
+
+.cartao .infoCartao .cor.cor9 span:nth-child(4) {
+  background-color: rgb(199, 30, 0);
+}
+
+#card10::after {
+  content: 'Gigabyte';
+  font-size: 80px;
+}
+
+#card11::after {
+  content: 'ASrock';
+  font-size: 90px;
+}
+
+#card12::after {
+  content: 'Asus';
+  font-size: 90px;
+}
+
+.cartao .infoCartao .cor.cor12 span:nth-child(4) {
+  background-color: rgb(0, 110, 255);
+}
+
+#card13::after {
+  content: 'Asus';
+}
+
+.cartao .infoCartao .cor.cor13 span:nth-child(4) {
+  background-color: red;
+}
+
+#card14::after {
+  content: 'Asus';
+}
+
+.cartao .infoCartao .cor.cor14 span:nth-child(4) {
+  background-color: red;
+}
+
+#card15::after {
+  content: 'ASrock';
+  font-size: 90px;
+}
+
+#card16::after {
+  content: 'Asus';
+  font-size: 90px;
+}
+
+#card17::after {
+  content: 'HyperX';
+  font-size: 80px;
+}
+
+#card18::after {
+  content: 'Logitech';
+  font-size: 80px;
+}
+
+#card19::after {
+  content: 'Asus';
+}
+
+#card20::after {
+  content: 'HP';
+}
+
+#card21::after {
+  content: 'Dell';
+}
+
+#card22::after {
+  content: 'Logitech';
+  font-size: 80px;
+}
+
+#card23::after {
+  content: 'OEX';
+}
+
+#card24::after {
+  content: 'Microsoft';
+  font-size: 80px;
+}
+
+.cartao .infoCartao .cor.cor24 span:nth-child(4) {
+  background-color: rgb(196, 2, 2);
+}
+
+#card25::after {
+  content: 'Adamantiun';
+  font-size: 50px;
+}
+
+#card26::after {
+  content: 'Redragon';
+  font-size: 60px;
+}
+
+#card27::after {
+  content: 'Pichau';
+  font-size: 60px;
+}
+
+#card28::after {
+  content: 'Dazz';
+  font-size: 60px;
+}
+
+.cartao .infoCartao .cor.cor28 span:nth-child(4) {
+  background-color: rgb(207, 8, 8);
+}
+
+#card29::after {
+  content: 'Apple';
+  font-size: 105px;
+}
+
+#card30::after {
+  content: 'Microsoft';
+  font-size: 80px;
+}
+
+#card31::after {
+  content: 'Logitech';
+  font-size: 80px;
+}
+
+#card32::after {
+  content: 'Magic';
+  font-size: 80px;
+}
+
+#card33::after {
+  content: 'Magic';
+  font-size: 80px;
+}
+
+.cartao .infoCartao .cor.cor33 span:nth-child(4) {
+  background-color: rgb(196, 2, 2);
+}
+
+#card34::after {
+  content: 'Magic';
+  font-size: 80px;
+}
+
+#card35::after {
+  content: 'Magic';
+  font-size: 80px;
+}
+
+#card36::after {
+  content: 'Magic';
+  font-size: 80px;
+}
+
+.cartao .infoCartao .cor.cor36 span:nth-child(4) {
+  background-color: rgb(196, 2, 2);
+}
+
+#card37::after {
+  content: 'Razer';
+}
+
+#card38::after {
+  content: 'HyperX';
+  font-size: 80px;
+}
+
+#card39::after {
+  content: 'Logitech';
+  font-size: 80px;
+}
+
+#card40::after {
+  content: 'Asus';
+}
+
+.cartao .infoCartao .cor.cor40 span:nth-child(4) {
+  background-color: rgb(207, 8, 8);
+}
+
+#card41::after {
+  content: 'Asus';
+}
+
+#card42::after {
+  content: 'NVIDIA';
+  font-size: 90px;
+}
+
+#card43::after {
+  content: 'NVIDIA';
+  font-size: 90px;
+}
+
+#card44::after {
+  content: 'NVIDIA';
+  font-size: 90px;
+}
+
+#card45::after {
+  content: 'NVIDIA';
+  font-size: 90px;
+}
+
+#card46::after {
+  content: 'NVIDIA';
+  font-size: 90px;
+}
+
+#card47::after {
+  content: 'NVIDIA';
+  font-size: 90px;
+}
+
+#card48::after {
+  content: 'NVIDIA';
+  font-size: 90px;
+}
+
+#card49::after {
+  content: 'Intel';
+  font-size: 90px;
+}
+
+#card50::after {
+  content: 'Intel';
+  font-size: 90px;
+}
+
+#card51::after {
+  content: 'Intel';
+  font-size: 90px;
+}
+
+#card52::after {
+  content: 'Intel';
+  font-size: 90px;
+}
+
+#card53::after {
+  content: 'AMD';
+  font-size: 90px;
+}
+
+#card54::after {
+  content: 'AMD';
+  font-size: 90px;
+}
+
+#card55::after {
+  content: 'AMD';
+  font-size: 90px;
+}
+
+#card56::after {
+  content: 'AMD';
+  font-size: 90px;
+}
+
+#card57::after {
+  content: 'LG';
+}
+
+#card58::after {
+  content: 'Samsug';
+  font-size: 80px;
+}
+
+#card59::after {
+  content: 'AOC';
+}
+
+#card60::after {
+  content: 'Acer';
+}
+
+#card61::after {
+  content: 'Dell';
+}
+
+#card62::after {
+  content: 'Husky';
+}
+
+#card63::after {
+  content: 'Pcfort';
+  font-size: 95px;
+}
+
+#card64::after {
+  content: 'LG';
+}
+
+#card65::after {
+  content: 'Husky';
+}
+
+#card66::after {
+  content: 'Skill';
+}
+
+#card67::after {
+  content: 'Aerocool';
+  font-size: 95px;
+}
+
+#card68::after {
+  content: 'LianLi';
+  font-size: 95px;
+}
+
+#card69::after {
+  content: 'Western';
+  font-size: 80px;
+}
+
+#card70::after {
+  content: 'Seagate';
+  font-size: 80px;
+}
+
+#card71::after {
+  content: 'Seagate';
+  font-size: 80px;
+}
+
+#card72::after {
+  content: 'Seagate';
+  font-size: 80px;
+}
+
+#card73::after {
+  content: 'Western';
+  font-size: 80px;
+}
+
+#card74::after {
+  content: 'Sandisk';
+  font-size: 80px;
+}
+
+#card75::after {
+  content: 'Crucial';
+  font-size: 80px;
+}
+
+#card76::after {
+  content: 'Corsair';
+  font-size: 80px;
+}
+
+#card77::after {
+  content: 'Multilaser';
+  font-size: 60px;
+}
+
+.cartao .infoCartao .cor.cor77 span:nth-child(2) {
+  background-color: black;
+}
+
+#card78::after {
+  content: 'Sandisk';
+  font-size: 80px;
+}
+
+.cartao .infoCartao .cor.cor78 span:nth-child(2) {
+  background-color: black;
+}
+
+#card79::after {
+  content: 'Kingston';
+  font-size: 70px;
+}
+
+.cartao .infoCartao .cor.cor79 span:nth-child(2) {
+  background-color: black;
+}
+
+#card80::after {
+  content: 'HP';
+}
+
+.cartao .infoCartao .cor.cor80 span:nth-child(2) {
+  background-color: silver;
+}
+
+#card81::after {
+  content: 'Multilaser';
+  font-size: 60px;
+}
+
+#card82::after {
+  content: 'Sandisk';
+  font-size: 80px;
+}
+
+.cartao .infoCartao .cor.cor82 span:nth-child(2) {
+  background-color: silver;
+}
+
+#card83::after {
+  content: 'Kingston';
+  font-size: 70px;
+}
+
+.cartao .infoCartao .cor.cor83 span:nth-child(2) {
+  background-color: black;
+}
+
+#card84::after {
+  content: 'HP';
+}
+
+.cartao .infoCartao .cor.cor84 span:nth-child(2) {
+  background-color: silver;
+}
+
+#card85::after {
+  content: 'JBL';
+}
+
+#card86::after {
+  content: 'JBL';
+}
+
+#card87::after {
+  content: 'Multilaser';
+  font-size: 60px;
+}
+
+#card88::after {
+  content: 'Multilaser';
+  font-size: 60px;
+}

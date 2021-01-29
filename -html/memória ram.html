@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Importando arquivos CSS -->
+    <link rel="stylesheet" href="/-css/-produtos/cards.css">
+    <link rel="stylesheet" href="/-css/-produtos/info-cards.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/-imagens/Logo/logo-01.png" type="image/x-png">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/db5edba00e.js" crossorigin="anonymous"></script>
+
+    <!-- Biblioteca JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js" crossorigin="anonymous"> </script>
+
+    <!-- Título da página -->
+    <title> Memória Ram: DDR3 & DDR4 </title>
+  </head>
+  <body>
+
+    <div id="menu"></div>
+    <div id="memoria-ram-ddr3"></div>
+    <div id="memoria-ram-ddr4"></div>
+    <div id="rodape"></div>
+
+    <script crossorigin="anonymous">
+      $("#menu").load("/-html/-menu/menu.html");
+      $("#memoria-ram-ddr3").load("/-html/-produtos/banco-de-dados.html #bloco3");
+      $("#memoria-ram-ddr4").load("/-html/-produtos/banco-de-dados.html #bloco4");
+      $("#rodape").load("/-html/-rodape/rodape.html");
+    </script>
+  </body>
+</html>
